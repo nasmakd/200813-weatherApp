@@ -1,0 +1,47 @@
+@charset "utf-8";
+*{box-sizing: border-box;}
+html, body{margin: 0;padding: 0;}
+header, section, article, aside, nav, main, footer{display: block;}
+header:after, section:after, article:after, aside:after, nav:after, main:after, footer:after{content: "";display: block;clear: both;}
+h1, h2, h3, h4, h5, h6, p{margin: 0;}
+ul, ol{margin: 0;padding: 0;list-style: none;}
+a{text-decoration: none;}
+.clear{clear: both;}
+
+.title{margin: 0 auto;}
+
+.cities{padding: 20px 0;width: 1200px;margin: 0 auto;font-size: 0;}
+.cities button{margin: 0 5px;font-size: 15px;padding: 8px 16px;background: #ffff99;border: none;border-radius: 4px;}
+
+#weather{width: 1200px;padding: 20px 0 0;background-color: #ddd;margin: 0 auto;}
+#weather ul{font-size: 0;}
+#weather ul li{display: inline-block;width: calc(33.33% - 20px);margin: 0 10px 20px;background-color: #fff;border-radius: 8px;overflow: hidden;box-shadow: 0 0 8px rgba(0,0,0,0.15);}
+#weather ul li .top{padding: 20px 0;color: #fff;background-color: #7799ff;}
+#weather ul li .top > div{width: 50%;display: inline-block;font-size: 16px;vertical-align: middle;padding: 0 20px;}
+#weather ul li .top .cur_icon{text-align: center;font-size: 54px;}
+#weather ul li .top .info{text-align: right;}
+#weather ul li .top .info .temp span{font-size: 19px;}
+#weather ul li .top .info h4{font-size: 24px;}
+#weather ul li .bottom{padding: 10px 0;font-size: 0;background-color: #fff;box-shadow: 0 -1px 8px rgba(0,0,0,0.12);}
+#weather ul li .bottom > div{display: inline-block;width: 33.33%;font-size: 14px;text-align: center;color: #777;}
+#weather ul li .bottom > div > i{font-size: 18px;color: #7799ff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
